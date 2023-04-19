@@ -1,0 +1,298 @@
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 768px;
+    }
+
+
+        /**** < HEADER > ****/
+
+.btn-burger {
+display: none;
+        }
+
+.navigation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.main-nav {
+display: flex;
+align-items: center;
+}
+ 
+
+.change-color {
+margin-right: 120px;
+}
+
+.line {
+border-bottom: 1px solid #E7E9FC;
+}
+
+.site-nav {
+display: flex;
+align-items: center;
+
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+gap: 40px;
+}
+
+.site-nav .item {
+    position: relative;
+
+}
+
+.active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--color-activation-nav);
+
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    color: var(--first-color-text);
+    font-size: 16px;
+    line-height: 1.5;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--color-activation-nav);
+
+}
+
+
+
+.auth-nav {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.auth-nav .link {
+    display: block;   
+    color: var(--second-color-text);
+
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--color-activation-nav);
+
+}
+
+        /**** < / HEADER > ****/
+
+     /*****< HERO >****/
+
+.hero-title {
+    width: 496px;
+    height: 120px;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.overlay {
+    width: 100%;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-photo-tablet-1x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .overlay {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-photo-tablet-2x.jpg);
+    }
+}
+.hero-section {
+
+}
+     /*****< /HERO >****/
+
+
+    /* *****< Modal>****/
+
+.modal {
+               
+width: 408px;
+min-height: 576px;
+            
+}
+    /* *****< / Modal> ****/
+
+/****SECTION 1 ADVANTEGES ****/
+@media screen and (max-width: 1199px) {
+  .list-advanteges {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 72px;
+  
+}
+
+
+
+.list-item {
+flex-basis: calc((100% - 24px) / 2);
+
+}  
+}
+
+
+.list-item:not(:last-child) {
+    
+
+}
+
+/****< /SECTION 1 ADVANTEGES > ****/
+
+/****SECTION 3 OUR TEAM ****/
+@media screen and (max-width: 1199px) {
+   .our-team {
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 64px;
+} 
+}
+
+
+
+/****< / SECTION 3 OUR TEAM > ****/
+
+/**** < SECTION 4 CUSTOMERS > ****/
+
+.customers-list {
+        column-gap: 24px;
+        
+    }
+
+.customers-item {
+       width: 168px;
+   }
+
+/**** < / SECTION 4 CUSTOMERS > ****/
+
+
+/**** < / FOOTER > ****/
+
+.container-footer {
+   display: flex;
+   flex-direction: column;
+   
+ }
+
+ .input-email-footer {
+     min-width: 264px;
+ }
+
+.footer-mobile-logo-and-text {
+    display: block;
+    margin-right: 24px;
+    margin-left: 108px;
+}
+.social-media-title{
+display: block;
+margin-top: 0;
+}
+.text-footer {
+margin-top: 17px;
+}
+
+.h3-footer {
+   display: block;
+    margin-right: auto;
+        text-align: start;
+}
+
+
+.shape-for-email-button {
+   flex-direction: row;
+   gap: 24px;
+
+}
+ .conteiner-for-tablet-footer {
+ display: flex;
+ align-self: start;
+ 
+  
+ }
+ .subscribe {
+    margin-left: 108px;
+ }
+
+ .list-product {
+    justify-content: start;
+ }
+
+.item-list-product {
+    max-width: 356px;
+
+}
+@media screen and (max-width: 1199px) {
+    .item-list-product:not(:nth-child(2n)) {
+     margin-right: 24px;
+ }
+ .item-list-product:not(:last-child) {
+    margin-bottom: 72px;
+ }
+ .portfolio {
+
+     padding-top: 64px;
+     padding-bottom: 96px;
+ }
+}
+ 
+
+ 
+.btn-second {
+padding: 12px 24px;
+    
+}
+
+.second-menu-nav {
+justify-content: center;
+margin-bottom: 64px;
+   
+}
+
+
+}
+
+
+
+
+/**** < / FOOTER > ****/
+

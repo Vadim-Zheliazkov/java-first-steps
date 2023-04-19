@@ -1,0 +1,62 @@
+@media screen and (min-width: 480px) {
+   
+.container{
+    width: 428px;
+       
+    }
+
+.hero-title {
+width: 320px;
+font-size: 36px;
+
+line-height: 1.11;
+}  
+
+/* *****<  Mobile Menu >****/
+.mobile-social-links {
+   
+    gap: 56px;
+    }
+
+.contacs-mobile .link-tel {
+       
+    font-size: 36px;
+   
+    
+        }
+/* *****< / Mobile Menu >****/
+
+/* *****< Modal >****/
+
+.modal {
+
+    width: 100%;
+    max-width: 392px;
+    min-height: 586px;
+
+}
+
+
+
+/* *****< / Modal> ****/
+
+.customers-item {
+    
+    width: 190px;
+   
+}
+.customers-list {
+    display: flex;
+    column-gap: 16px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+ .input-email-footer {
+    
+min-width: 398px;
+}
+}
